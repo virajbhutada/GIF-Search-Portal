@@ -28,13 +28,14 @@ In conjunction with Azure services, the website will be deployed as a static web
 
 ## Snapshots
 
-![Screenshot 1](https://github.com/virajbhutada/web-gif-explorer/blob/main/assets/143819712/56588c8d-684b-410d-94bd-f1ef54862e8f.png)
+| Home GIFs | Disney GIFs |
+|---|---|
+| ![home_gifs](https://github.com/virajbhutada/web-gif-explorer/assets/143819712/59832b10-d2af-4a7e-afb0-8dbf495a2932) | ![disney_gifs](https://github.com/virajbhutada/web-gif-explorer/assets/143819712/5b0c5769-f719-483f-997d-54fc614aeb5e) |
 
-![Screenshot 2](https://github.com/virajbhutada/web-gif-explorer/blob/main/assets/143819712/9c0e6cd4-1048-48fe-abb3-84e161e7d520.png)
+| Future GIFs | Main Portal |
+|---|---|
+| ![future_gifs](https://github.com/virajbhutada/web-gif-explorer/assets/143819712/68d66f20-3464-41b1-a2ee-233840fa08f2) | ![main_portal](https://github.com/virajbhutada/web-gif-explorer/assets/143819712/20e2dc6c-8852-4955-abb2-7fe6a6c4f228) |
 
-![Screenshot 3](https://github.com/virajbhutada/web-gif-explorer/blob/main/assets/143819712/a2c0d3b1-a706-429d-a47f-5e5e804e8176.png)
-
-![Screenshot 4](https://github.com/virajbhutada/web-gif-explorer/blob/main/assets/143819712/3c995cf4-3d93-492d-85f0-8d3c105b84cf.png)
 
 ---
 
