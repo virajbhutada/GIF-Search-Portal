@@ -1,6 +1,4 @@
-## Project Title:
-
-**GIF Search Portal**
+## Project Title: **GIF Search Portal**
 
 ---
 
