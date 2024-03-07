@@ -2,7 +2,7 @@
 
 ---
 
-## Problem Statement
+## Problem Statement/Opportunity:
 
 ### GIPHY Integration
 The challenge lies in integrating a comprehensive GIPHY search functionality within a web application, leveraging HTML, CSS, and JavaScript. By harnessing the GIPHY API, the aim is to seamlessly incorporate a wide array of memes, GIFs, and short comedic clips into the platform.
