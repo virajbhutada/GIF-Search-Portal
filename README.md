@@ -2,7 +2,7 @@
 
 ---
 
-## Problem Statement/Opportunity:
+## Problem Statement/Opportunity
 
 ### GIPHY Integration
 The challenge lies in integrating a comprehensive GIPHY search functionality within a web application, leveraging HTML, CSS, and JavaScript. By harnessing the GIPHY API, the aim is to seamlessly incorporate a wide array of memes, GIFs, and short comedic clips into the platform.
@@ -17,7 +17,7 @@ In conjunction with Azure services, the website will be deployed as a static web
 
 ### Key Features:
 - Seamless integration of GIPHY API for comprehensive GIF search functionality.
-- Utilization of HTML, CSS, and JavaScript to ensure dynamic and responsive user interface.
+- Utilization of HTML, CSS, and JavaScript to ensure a dynamic and responsive user interface.
 - Deployment of the application as a static web app using Azure services.
 - Targeted towards students and professionals, offering a smart learning portal enriched with engaging content.
 - Continuous updates and enhancements to enrich the learning journey of users.
