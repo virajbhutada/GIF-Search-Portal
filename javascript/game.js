@@ -90,8 +90,6 @@ $(document).on("click", ".tagSearch", function (event) {
     + "api_key=7c98ec4fbf91466d8f0ac9dcbd1200a9"
   var apiURL2 = "https://api.giphy.com/v1/gifs/search?"
 
-  var myapiKey = "&api_key=7c98ec4fbf91466d8f0ac9dcbd1200a9"
-
   var limit = $("#limit-value").text()
   console.log(limit)
 
