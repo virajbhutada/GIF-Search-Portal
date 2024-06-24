@@ -1,15 +1,15 @@
-# GIF Search Portal
+## GIF SEARCH ENGINE
 
 ---
 
-## Problem Statement
+### Problem Statement
 
-### GIPHY Integration
+#### GIPHY Integration
 The challenge is to integrate comprehensive GIPHY search functionality into a web application using HTML, CSS, and JavaScript. By leveraging the GIPHY API, the goal is to seamlessly incorporate a diverse array of memes, GIFs, and short comedic clips into the platform.
 
 ---
 
-## Project Description
+### Project Description
 
 The project involves developing a dynamic web application that utilizes the GIPHY API to aggregate and display a variety of GIF content. This platform is not just for entertainment but also serves as a resource hub, offering users access to humorous memes, engaging GIFs, and entertaining videos. Powered by JavaScript, the application is designed to ensure smooth functionality and an intuitive user experience.
 
@@ -24,7 +24,7 @@ The website will be deployed as a static web application using Azure services, l
 
 ---
 
-## Usage Instructions
+### Usage Instructions
 
 Explore and have fun with various GIFs using [this app](https://mkallgren08.github.io/Giphy-Search-App/). On the main page:
 1. Select the number of GIFs you want to find using the dropdown button in the upper-right corner.
@@ -33,7 +33,7 @@ Explore and have fun with various GIFs using [this app](https://mkallgren08.gith
 
 **Credits:** Gif search functionality is powered by [Giphy API](https://github.com/Giphy/GiphyAPI).
 
-## Snapshots
+### Snapshots
 
 | Home GIFs | Disney GIFs |
 |---|---|
@@ -45,6 +45,13 @@ Explore and have fun with various GIFs using [this app](https://mkallgren08.gith
 
 ---
 
-## Conclusion
+### Conclusion
 
 The GIF Search Portal combines entertainment and education through innovative design and cutting-edge technology. By leveraging Azure resources and the GIPHY API, the project aims to provide users with a rich repository of GIFs while fostering an environment conducive to learning and exploration.
+
+---
+
+### Connect With Me 
+
+**[![LinkedIn](https://img.shields.io/badge/LinkedIn-Viraj%20Bhutada-blue?logo=linkedin)](https://www.linkedin.com/in/virajnbhutada24/)**
+
