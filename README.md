@@ -1,6 +1,5 @@
-## GIF SEARCH ENGINE
+## GIF Search Portal: A Dynamic Web Application for Entertainment and Learning
 
----
 
 ### Problem Statement
 
