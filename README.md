@@ -1,4 +1,4 @@
-## GIF Search Portal: A Dynamic Web Application for Entertainment and Learning
+## GIF Search Portal: A Dynamic Web App for Entertainment and Learning
 
 
 ### Problem Statement
@@ -38,7 +38,7 @@ Explore and have fun with various GIFs using [this app](https://mkallgren08.gith
 |---|---|
 | ![home_gifs](https://github.com/virajbhutada/GIF-Search-Portal/assets/143819712/b4f7bc9b-03e8-49ab-9edb-889606009db9) | ![disney_gifs](https://github.com/virajbhutada/GIF-Search-Portal/assets/143819712/cfed6c87-4721-4b5e-bca3-d3b7622f79e6) |
 
-| Future GIFs | Main Portal |
+| Marvel GIFs | Main Portal |
 |---|---|
 | ![marvel_gifs](https://github.com/virajbhutada/GIF-Search-Portal/assets/143819712/81d7272e-2926-4391-9863-f07d7f4f53f6) | ![main_portal](https://github.com/virajbhutada/GIF-Search-Portal/assets/143819712/6c391ddb-b7b4-4e77-babe-8ef2bef46cb5) |
 
