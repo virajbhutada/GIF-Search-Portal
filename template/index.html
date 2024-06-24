@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gif Search (powered by Giphy)</title>
+  <!-- Reset CSS -->
+  <!-- <link rel = "stylesheet" type = "text/css" href = "./css/reset.css"> -->
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+
+
+</head>
+
+<body>
+  <div class="row">
+    <div class="container-fluid title">
+      <h1>Search for GIFS!</h1>
+      <h6>-powered by Giphy</h6>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="container-fluid button-bar">
+        <div class="col-sm-3 button-list">
+          <!-- This is where the buttons will go -->
+          <div id="search-buttons"></div>
+        </div>
+        <div class="col-sm-3 toggle-old-results">
+          <div>
+            <div class="col-sm-12">
+              <label for="make-new-button" class="display-instructions toggle-switch"> All Results/ New Results</label>
+            </div>
+          </div>
+          <div>
+            <div class="col-sm-12">
+              <!-- Rounded switch -->
+              <label class="switch">
+                <input type="checkbox" id = "new-gif-toggle">
+                <span class="slider round">
+                  <h6 class="toggle-state-new">New</h6>
+                  <h6 class="toggle-state-all">All</h6>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 new-button-input">
+          <form class="navbar-form navbar-left make-new-button" role="search">
+            <label for="make-new-button" class="display-instructions"> Create a New Search Button!</label>
+            <input type="text" class="form-control" placeholder="Tag Search" id="new-tag">
+            <input type="submit" class="btn btn-default" id="make-new-tag" value="Submit">
+          </form>
+        </div>
+        <div class="col-sm-3 display-count">
+          <label for="limit-button" class="display-instructions display-num">Number Of Results To Display</label>
+          <!-- Split button -->
+          <div class="btn-group dropdown-group">
+            <div class="btn btn-default limit-button">
+              <span id="limit-value">5</span>
+            </div>
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="caret"></span>
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li role="button" class="limit" value="5">5</li>
+              <li role="button" class="limit" value="10">10</li>
+              <li role="button" class="limit" value="15">15</li>
+              <li role="button" class="limit" value="20">20</li>
+              <li role="button" class="limit" value="25">25</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12" id="gif-display">
+
+      </div>
+      <div class="clear"></div>
+    </div>
+
+  </div>
+  <!-- End Body wrapper -->
+  <!-- Uncompressed jQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <!-- Custom Javascript -->
+  <script type="text/javascript" src="javascript/game.js"></script>
+
+
+
+</body>
+
+</html>

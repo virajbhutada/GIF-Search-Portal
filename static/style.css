@@ -1,0 +1,291 @@
+h6{
+	font-weight: bold;
+}
+
+.backer{
+	display: inline-block;
+	margin: 5px;
+	background-color: lightgrey;
+	border-radius: 10px;
+}
+
+.btn{
+	font-size: 14px;
+}
+
+.button-bar{
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(-52deg,#0408ff, red); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(-52deg,#0408ff, red); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(-52deg,#0408ff, red); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(-52deg,#0408ff, red); /* Standard syntax */
+}
+
+.display-count{
+	margin-top: 8px;
+	
+}
+
+.display-instructions{
+	min-width:111px;
+	margin-bottom: 5px;
+	padding: 6px 20px;
+}
+
+
+
+.dropdown-group{
+	width: 95%;
+	margin: 0px 6%;
+	min-width: 168px;
+}
+
+.dropdown-menu{
+	min-width:50px;
+	text-align: center;
+	width: 93%;
+
+	background: #ff6804; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(right top, #c9f5ff, #aa9f97); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom left, #c9f5ff, #aa9f97); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom left, #c9f5ff, #aa9f97); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom left, #c9f5ff, #aa9f97); /* Standard syntax */
+}
+
+.form-control{
+	border-top-width: 3px;
+}
+
+.gif{
+	display: inline-block;
+}
+
+.gifWrap{
+	border: 3px solid #555555;
+	background-color: rgba(200,200,200,.40)
+}
+
+#gif-display{
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(232deg,#0408ff, red); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(232deg,#0408ff, red); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(232deg,#0408ff, red); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(232deg,#0408ff, red); /* Standard syntax */
+}
+
+
+.item{
+	display: inline-block;
+	margin: 10px;
+	border: 3px solid #555555;
+	border-radius: 5px;
+	background: #999999;
+	overflow: hidden;
+}
+
+label{
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(-52deg,yellow, red); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(-52deg,yellow, red); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(-52deg,yellow, red); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(-52deg,yellow, red); /* Standard syntax */
+
+	color: black;
+	display: block;
+	border: 1px #999 solid;
+	padding: 3px;
+	border-radius: 3px;
+	text-decoration: underline;
+	font-size: 16px;
+}
+
+li.limit{
+	width: 100%;
+	text-align: center;
+}
+
+li.limit:hover{
+	color: whitesmoke;
+	font-weight: bold;
+	background: #ff6804; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(right top, #04cdff, #ff6804); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom left, #04cdff, #ff6804); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom left, #04cdff, #ff6804); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom left, #04cdff, #ff6804); /* Standard syntax */
+	border-top: solid 1px black;
+}
+
+.limit-button{
+	width:85%;
+	touch-action: none;
+	cursor: auto;
+}
+
+.limit-button:hover, 
+.limit-button:focus,
+.limit-button:active{
+	background-color:#fff;
+	border-color: #ccc;
+}
+
+
+
+.row{
+	border-bottom: 3px solid #777;
+	background-color: #ebebeb;
+}
+
+#search-buttons{
+	margin-top: 3px;
+}
+
+.title{
+	text-align: center;
+}
+
+.tagSearch{
+	font-size: 20px;
+	/* margin: 0px; */
+	border-radius: 10px;
+	padding: 5px;
+	opacity: .85;
+}
+
+.tagSearch:hover,
+.tagSearch:focus,
+.tagSearch.focus {
+  /* color: rgb(240, 240, 240); */
+  /* font-weight: bold;
+  text-decoration: none; */
+  opacity: 1.0;
+  border-color: darkslategray;
+}
+
+.toggle-old-results{
+	padding: 0px;
+}
+
+/* ======================================== */
+/* SLIDER FUNCTIONALITY */
+/* ======================================== */
+
+/* The switch - the box around the slider */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 90px;
+	height: 46px;
+	min-width:52px;
+	margin-top: 10px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {display:none;}
+  
+  /* The slider */
+  .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #49e4ff;
+	-webkit-transition: .4s;
+	transition: .4s;
+	border: outset 4px darkslategray;
+  }
+  
+  /* This is the actual sliding element! :) */
+  .slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 27px;
+	left: 3px;
+	bottom: 2px;
+	background-color: lightgrey;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  input:checked + .slider,
+  input:focus + .slider{
+	background-color: rgb(33, 243, 68);
+  }
+  
+   /* {
+	box-shadow: 0 0 1px rgb(33, 243, 68);
+  } */
+  
+  input:checked + .slider:before {
+	-webkit-transform: translateX(44px);
+	-ms-transform: translateX(44px);
+	transform: translateX(44px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+	border-radius: 34px;
+	height: 34px;
+	width: 80px;
+	margin: 6px 5px;
+	border: 2px solid #444444;
+  }
+  
+  .slider.round:before {
+	border-radius: 50%;
+	border: solid 1px black;
+  }
+
+  .display-instructions.toggle-switch{
+	  min-width: 138px;
+	  margin-top: 8px;
+  }
+
+  .toggle-state-all{
+	  display: inline-block;
+	  margin-left: 22px;
+  }
+
+  .toggle-state-new{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+/* ======================================== */
+/* Media Responsiveness */
+/* ======================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 1097px){
+	.display-instructions{
+		margin: auto 0px;
+	}
+
+	.display-instructions.toggle-switch{
+		margin: auto 0px;
+		margin-top: 11px; 
+	}
+
+	
+
+	.display-instructions.display-num{
+		margin-top:5px;
+	}
+
+	.dropdown-group{
+		width: 100%;
+		margin: 10px 0%;
+		min-width: 168px;
+	}
+
+	.make-new-button{
+		width: 150px;
+		padding: 3px 12px;
+	}
+
+	#new-tag{
+		width: 100%;
+		margin: 10px 0px
+	}
+}
